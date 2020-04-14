@@ -1,0 +1,5 @@
+python-eventfd (0.2-1) bionic; urgency=medium
+
+  * Initial release.
+
+ -- Markus Grimm <grimm@magazino.eu>  Tue, 14 Apr 2020 14:24:10 +0100
