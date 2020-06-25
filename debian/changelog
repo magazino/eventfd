@@ -1,3 +1,9 @@
+python-eventfd (0.2-2) focal; urgency=medium
+
+  * Bump packaging for Focal and Python 3
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Thu, 25 Jun 2020 13:01:40 +0200
+
 python-eventfd (0.2-1) bionic; urgency=medium
 
   * Initial release.

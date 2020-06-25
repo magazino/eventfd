@@ -2,15 +2,15 @@ Source: python-eventfd
 Section: python
 Priority: optional
 Maintainer: Markus Grimm <grimm@magazino.eu>
-Build-Depends: debhelper (>=9), dh-python, python-all, libpython-all-dev, python-setuptools
-Standards-Version: 3.9.7
+Build-Depends: debhelper-compat (= 12), dh-sequence-python3, python3-all, libpython3-all-dev, python3-setuptools
+Standards-Version: 4.5.0
 Homepage: https://github.com/palaviv/eventfd/
 Vcs-Git: https://github.com/palaviv/eventfd/
 Vcs-Browser: https://github.com/palaviv/eventfd/
 
-Package: python-eventfd
+Package: python3-eventfd
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: eventfd offer the EventFD class in python
  The class implement all the functions as the threading.Event class.
  In addition to that the EventFD has the fileno method and thus can be used
